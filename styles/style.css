@@ -1,16 +1,30 @@
+@import url('/styles/header.css');
 
 :root {
-
-    --corDeFundo:#EBECEE;
-
+    --corDeFundo: #EBECEE;
+    --branco: #ffffff;
 }
 
 body {
 
-    background-color: var(--corDeFundo  );
+    background-color: var(--corDeFundo);
 }
 
-h1 {
+.cabecalho {
 
-    background-color: #ffffff;
+    display: flex;
+    background-color: var(--branco);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+
+    padding: 1rem;
 }
